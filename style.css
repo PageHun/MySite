@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerHeader {
+  max-width: 1157px;
+  margin: 0 auto;
+}
+
+.innerHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerLinks {
+  width: 397px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerLinks a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.containerHeaderBg {
+  background: #111111;
+}
+
+.headerLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerLogo .spanOne {
+  color: #ffffff;
+}
+
+.headerLogo .spanTwo {
+  color: #abaab0;
+}
+
+.containerWelcome {
+  max-width: 1157px;
+  margin: 0 auto;
+}
+
+.containerWelcomeBg {
+  background: #111111;
+}
+
+.innerWelcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcomeInfo h1 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 84px;
+}
+
+.welcomeInfo p {
+  color: #ffffff;
+  margin-top: 12px;
+}
+
+.welcomeInfo button {
+  padding: 10px 20px;
+  background: #6357FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.welcomeInfoLinks {
+  max-width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 300px;
+}
+
+.welcomeImg {
+  margin-top: 80px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 568px) {
+  .welcomeImg {
+    display: none;
+  }
+
+  .innerWelcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+
+  .welcomeInfoLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 50px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
